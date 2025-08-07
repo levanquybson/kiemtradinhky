@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đề Kiểm Tra Định Kì Khối 10</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f9ff;
+      color: #2c3e50;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      color: #2c3e90;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header blockquote {
+      font-style: italic;
+      color: #34495e;
+      font-size: 20px;
+    }
+
+    header blockquote span {
+      color: #2c3e90;
+      font-weight: bold;
+    }
+
+    .button-bar {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button-bar button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .button-bar button:hover {
+      background-color: #c2185b;
+      transform: scale(1.05);
+    }
+
+    .section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .grade-label {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e91e63;
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px 40px;
+    }
+
+    .column {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 0 1 300px;
+      padding: 20px;
+      border-top: 8px solid #e91e63;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .column h2 {
+      text-align: center;
+      color: #e91e63;
+      margin-bottom: 20px;
+    }
+
+    .column h3 {
+      color: #2c3e90;
+      margin-bottom: 5px;
+    }
+
+    .item {
+      margin-left: 15px;
+      margin-bottom: 10px;
+    }
+
+    .official { color: orange; font-weight: bold; }
+    .answer { color: orangered; font-weight: bold; }
+    .link { color: teal; text-decoration: none; }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 900px) {
+      .column { flex: 0 1 45%; }
+    }
+
+    @media screen and (max-width: 600px) {
+      .column { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📚 ĐỀ KIỂM TRA ĐỊNH KÌ CÁC KHỐI THEO CẤU TRÚC ĐỀ THI MỚI</h1>
+  <blockquote>
+    "<span>Mathematics is trivial, but I can't do my work without it</span>"<br>
+    – Richard Feynman (1918–1988) –
+  </blockquote>
+</header>
+
+<div class="button-bar">
+  <button onclick="showSection('gk1')">Giữa Kỳ 1</button>
+  <button onclick="showSection('ck1')">Cuối Kỳ 1</button>
+  <button onclick="showSection('gk2')">Giữa Kỳ 2</button>
+  <button onclick="showSection('ck2')">Cuối Kỳ 2</button>
+</div>
+
+<div id="sections">
+  <div class="section" id="gk1">
+    <div class="grade-label">Đề kiểm tra giữa kỳ 1</div>
+    <div class="container">
+      <div class="column">
+        <h2>Giữa Kỳ 1 - Khối 10</h2>
+     <h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk1102425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk1102425.docx">Tải tài liệu</a></div>
+      <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+
+ </div>
+
+      <div class="column">
+        <h2>Giữa Kỳ 1 - Khối 11</h2>
+<h3>1. Năm 2024-2025</h3>
+
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk1112425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk1112425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+
+ </div>
+      <div class="column">
+        <h2>Giữa Kỳ 1 - Khối 12</h2>
+
+  <h3>1. Năm 2024-2025</h3>
+
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk1122425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk1122425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>     
+
+ </div>
+    </div>
+  </div>
+
+  <div class="section" id="ck1">
+    <div class="grade-label">Đề kiểm tra cuối kỳ 1</div>
+    <div class="container">
+      <div class="column"><h2>Cuối Kỳ 1 - Khối 10</h2>
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck1102425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dack1122425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>     
+</div>
+      <div class="column"><h2>Cuối Kỳ 1 - Khối 11</h2>
+
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck1112425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dack1112425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> 
+
+</div>
+     
+ <div class="column"><h2>Cuối Kỳ 1 - Khối 12</h2>
+
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck1122425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dack1122425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> 
+
+</div>
+
+ </div>
+  </div>
+
+  <div class="section" id="gk2">
+    <div class="grade-label">Đề kiểm tra giữa kỳ 2</div>
+    <div class="container">
+      <div class="column"><h2>Giữa Kỳ 2 - Khối 10</h2>
+
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk2102425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk2102425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> 
+
+</div>
+      <div class="column"><h2>Giữa Kỳ 2 - Khối 11</h2>
+
+
+
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk2112425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk2112425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> 
+
+
+</div>
+      <div class="column"><h2>Giữa Kỳ 2 - Khối 12</h2>
+
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="degk2122425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk2122425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> </div>
+    </div>
+  </div>
+
+  <div class="section" id="ck2">
+    <div class="grade-label">Đề kiểm tra cuối kỳ 2</div>
+    <div class="container">
+      <div class="column"><h2>Cuối Kỳ 2 - Khối 10</h2>
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck2102425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dagk2102425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> </div>
+      <div class="column"><h2>Cuối Kỳ 2 - Khối 11</h2>
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck2112425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dack2112425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> </div>
+      <div class="column"><h2>Cuối Kỳ 2 - Khối 12</h2>
+<h3>1. Năm 2024-2025</h3>
+        <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="deck2122425.docx">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="dack2122425.docx">Tải tài liệu</a></div>
+     <h3>2. Năm 2025-2026</h3>
+ <div class="item">📄 <span class="official">Đề chính thức</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div>
+        <div class="item">📄 <span class="answer">Đáp án</span> ⬇ <a class="link" href="#">Tải tài liệu</a></div> </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(el => el.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+  showSection('gk1');
+</script>
+
+</body>
+<footer class="footer"><center> 
+    © 2025 Lê Văn Quý. All rights reserved.
+<P>Giáo viên THPT Bình Sơn, Quãng Ngãi</p>
+     </center>
+  </footer>
+</html>
